@@ -3,7 +3,7 @@ import {FaLinkedin, FaGithub} from 'react-icons/fa'
 
 const Contact = () => {
   return (
-    <section>
+    <section className='h-screen -mt-15'>
       <form action="https://formspree.io/f/mgebeedl" method="POST" className="w-1/2 xl:w-2/5 h-1/2 grid grid-rows-6 grid-flow-col gap-1 p-7 bg-gray-600 mx-auto mt-24 rounded">
         <div className='flex justify-start items-center text-3xl mb-7 font-bold'>Contact me:</div>
         <div className="relative">
@@ -38,11 +38,11 @@ const Contact = () => {
         </div>
 
         <div className="flex justify-end">
-          <button className="form-part submit w-full md:w-1/2 mt-2 bg-blue-700 rounded" type="submit">Submit</button>
+          <button className="form-part submit w-full md:w-1/2 mt-4 bg-blue-700 rounded" type="submit">Submit</button>
         </div>
 
         <div className="flex justify-end mt-4 gap-5 mr-2">
-          <a href='www.linkedin.com/in/nadav-sofer' target='_blank' rel='noreferrer' className='text-4xl'><FaLinkedin/></a>
+          <a href='https://www.linkedin.com/in/nadav-sofer/' target='_blank' rel='noreferrer' className='text-4xl'><FaLinkedin/></a>
           <a href='https://github.com/NadavSofer' target='_blank' rel='noreferrer' className='text-4xl'><FaGithub/></a>
         </div>
       </form>

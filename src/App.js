@@ -4,19 +4,17 @@ import Navbar from './Components/Navbar';
 import Homepage from './Components/Homepage';
 import About from './Components/About';
 import Projects from './Components/Projects';
-import Resume from './Components/Resume';
 import Contact from './Components/Contact';
 import Footer from './Components/Footer'
 
 function App() {
   return (
-    <div className="App bg-gray-800 h-screen text-slate-200 font-roboto">
+    <div className="App bg-gray-800 h-fit text-slate-200 font-roboto">
       <Navbar/>
       <Routes>
         <Route path='/' element={<Homepage/>}/>
         <Route path='/about' element={<About/>}/>
         <Route path='/projects' element={<Projects/>}/>
-        <Route path='/resume' element={<Resume/>}/>
         <Route path='/contact' element={<Contact/>}/>
       </Routes>
       <Footer/>

@@ -38,9 +38,6 @@ const Navbar = () => {
                             <Link to="/Projects" className="block py-2 pl-3 pr-4 md:border-0 md:p-4 text-white md: hover:bg-blue-700 active:bg-blue-900">Projects</Link>
                         </li>
                         <li>
-                            <Link to="/Resume"  className="block py-2 pl-3 pr-4 md:border-0 md:p-4 text-white md: hover:bg-blue-700 active:bg-blue-900">Resume</Link>
-                        </li>
-                        <li>
                             <Link to="/Contact"  className="block py-2 pl-3 pr-4 md:border-0 md:p-4 text-white md: hover:bg-blue-700 active:bg-blue-900">Contact</Link>
                         </li>
                     </ul>
