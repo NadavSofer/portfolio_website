@@ -3,7 +3,7 @@ import {FaLinkedin, FaGithub} from 'react-icons/fa'
 
 const Contact = () => {
   return (
-    <section className='h-screen -mt-15'>
+    <section className='h-fit pb-40'>
       <form action="https://formspree.io/f/mgebeedl" method="POST" className="w-1/2 xl:w-2/5 h-1/2 grid grid-rows-6 grid-flow-col gap-1 p-7 bg-gray-600 mx-auto mt-24 rounded">
         <div className='flex justify-start items-center text-3xl mb-7 font-bold'>Contact me:</div>
         <div className="relative">

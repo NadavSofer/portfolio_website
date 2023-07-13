@@ -32,13 +32,13 @@ const Navbar = () => {
                 <div  className="hidden w-full md:block md:w-auto" id="navbar-default">
                     <ul  className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded bg-gray-700 md:bg-transparent md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-gray-900 border-gray-700">
                         <li>
-                            <Link to="/About"  className="block py-2 pl-3 pr-4 md:border-0 md:p-4 text-white md: hover:bg-blue-700 active:bg-blue-900">About</Link>
+                            <Link to="/About"  className="block py-2 pl-3 pr-4 md:border-0 md:p-4 text-white duration-500 hover:bg-blue-700 active:bg-blue-900">About</Link>
                         </li>
                         <li>
-                            <Link to="/Projects" className="block py-2 pl-3 pr-4 md:border-0 md:p-4 text-white md: hover:bg-blue-700 active:bg-blue-900">Projects</Link>
+                            <Link to="/Projects" className="block py-2 pl-3 pr-4 md:border-0 md:p-4 text-white duration-500 hover:bg-blue-700 active:bg-blue-900">Projects</Link>
                         </li>
                         <li>
-                            <Link to="/Contact"  className="block py-2 pl-3 pr-4 md:border-0 md:p-4 text-white md: hover:bg-blue-700 active:bg-blue-900">Contact</Link>
+                            <Link to="/Contact"  className="block py-2 pl-3 pr-4 md:border-0 md:p-4 text-white duration-500 hover:bg-blue-700 active:bg-blue-900">Contact</Link>
                         </li>
                     </ul>
                 </div>
