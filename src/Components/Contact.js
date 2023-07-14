@@ -38,7 +38,7 @@ const Contact = () => {
         </div>
 
         <div className="flex justify-end">
-          <button className="form-part submit w-full md:w-1/2 mt-4 bg-blue-700 rounded" type="submit">Submit</button>
+          <button className=" submit w-full md:w-1/2 mt-4 bg-blue-700 rounded" type="submit">Submit</button>
         </div>
 
         <div className="flex justify-end mt-4 gap-5 mr-2">
