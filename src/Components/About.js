@@ -5,15 +5,11 @@ import { SiCss3 } from 'react-icons/si'
 import { GiSandsOfTime, GiMagnifyingGlass, GiOrganigram } from 'react-icons/gi'
 
 
-
-
-
-
 const About = () => {
   return (
     <section className='xl:w-3/5 xl:mx-auto h-fit'>
-      <article>
-        <h1>language</h1>
+      <article className='my-20'>
+        <h1 className='text-3xl mb-8'>languages</h1>
         <div className='grid grid-cols-2 md:grid-cols-5 gap-4 w-2/5 mx-auto text-blue-500'>
           <div className='duration-500 skew-y-12 w-fit border border-red-500 rounded mx-auto hover:-skew-y-12'>
             <BiLogoPython className='duration-500 -skew-y-12 p-2 hover:skew-y-12 h-16 w-16' />
@@ -59,7 +55,7 @@ const About = () => {
 
       </article>
 
-      <article>
+      <article className='bg-blue-500'>
         <div className='flex justify-center gap-20'>
           <div>
             <GiSandsOfTime className='text-9xl mx-auto'/>
