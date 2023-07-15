@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 
 const Homepage = () => {
   return (
-    <section className='h-fit flex justify-center items-center'>
+    <section className=' flex justify-center items-center' style={{height:'87vh'}}>
       <div>
-        <h1 class="mb-10 mt-28 text-4xl font-extrabold text-gray-900 dark:text-white md:text-6xl lg:text-7xl"><span class="text-transparent bg-clip-text bg-gradient-to-r to-blue-800 from-sky-500">Welcome</span></h1>
+        <h1 class="mb-10 text-4xl font-extrabold text-gray-900 dark:text-white md:text-6xl lg:text-7xl"><span class="text-transparent bg-clip-text bg-gradient-to-r to-blue-800 from-sky-500">Welcome</span></h1>
         <div className='text-xl text-left'>
           <p className='mb-5 '>
             My name is Nadav Sofer, Front-end developer and overall geek. <br />

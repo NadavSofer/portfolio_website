@@ -4,7 +4,7 @@ import kankaLog from '../assets/kankaLog.png'
 
 const Projects = () => {
     return (
-        <section>
+        <section style={{height:'87vh'}}>
             <div className='font-bold text-5xl my-4'>Projects</div>
             <article>
                 <div className='flex flex-col flex-wrap items-center md:flex-nowrap	 md:flex-row md:w-2/3 xl:w-1/2 gap-4 mx-auto my-8'>
