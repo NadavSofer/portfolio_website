@@ -1,4 +1,3 @@
-import About from "./Components/About"
 import Footer from "./Components/Footer"
 import Header from "./Components/Header"
 import NavBar from "./Components/NavBar"
@@ -12,7 +11,6 @@ function App() {
       <NavBar></NavBar>
       <Header></Header>
       <Tech></Tech>
-      <About></About>
       <Projects></Projects>
       <Footer></Footer>
     </>
