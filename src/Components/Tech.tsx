@@ -51,7 +51,22 @@ const Tech = () => {
         ],
     };
 
-    return <div>Tech</div>;
+    return (
+        <div>
+            <div>
+                {Object.entries(techStack).map(([category, technologies]) => (
+                    <div key={category} style={{ marginBottom: "20px" }}>
+                        <h2>{category}</h2>
+                        <ul>
+                            {technologies.map((tech) => (
+                                <li key={tech}>{tech}</li>
+                            ))}
+                        </ul>
+                    </div>
+                ))}
+            </div>
+        </div>
+    );
 };
 
 export default Tech;
